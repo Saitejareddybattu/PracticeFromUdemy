@@ -10,3 +10,15 @@ jobs:
               echo "have a nice day"
       - name: print byee
         run: echo "good byee"  
+  second-job:
+    needs: first-job
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: |
+              echo "good morning"
+              echo "goo evening please"
+      - name: print byee
+        run: echo "second good byee"
+
+    
