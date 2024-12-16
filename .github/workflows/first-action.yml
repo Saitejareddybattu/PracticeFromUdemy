@@ -19,6 +19,6 @@ jobs:
               echo "good morning"
               echo "goo evening please"
       - name: print byee
-        run: echo "second good byee"
+        run: echo "second good byee to the system"
 
     
